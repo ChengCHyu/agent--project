@@ -1,0 +1,329 @@
+{
+  "users": [
+    {
+      "user_id": "U001",
+      "nickname": "考研小白",
+      "city": "北京",
+      "target_university": "北京大学",
+      "target_major": "计算机科学与技术",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-15 09:30:00",
+          "query": "北大计算机考研需要准备哪些科目？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-01-20 14:20:00",
+          "query": "数学一和数学二有什么区别？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-05 20:15:00",
+          "query": "现在开始准备考研还来得及吗？",
+          "category": "备考规划"
+        },
+        {
+          "timestamp": "2024-02-18 10:45:00",
+          "query": "北大计算机历年分数线是多少？",
+          "category": "分数线查询"
+        }
+      ]
+    },
+    {
+      "user_id": "U002",
+      "nickname": "二战勇士",
+      "city": "上海",
+      "target_university": "复旦大学",
+      "target_major": "金融学",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-10 16:00:00",
+          "query": "二战考生如何调整心态？",
+          "category": "心理辅导"
+        },
+        {
+          "timestamp": "2024-01-25 11:30:00",
+          "query": "复旦金融专硕报录比是多少？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-02-08 19:20:00",
+          "query": "396经济类联考和数学三哪个更难？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-22 08:45:00",
+          "query": "二战需要换学校吗？",
+          "category": "择校建议"
+        },
+        {
+          "timestamp": "2024-03-01 21:10:00",
+          "query": "如何平衡工作和二战备考？",
+          "category": "时间管理"
+        }
+      ]
+    },
+    {
+      "user_id": "U003",
+      "nickname": "跨考达人",
+      "city": "广州",
+      "target_university": "中山大学",
+      "target_major": "心理学",
+      "exam_year": 2026,
+      "queries": [
+        {
+          "timestamp": "2024-01-08 13:20:00",
+          "query": "本科机械专业跨考心理学难吗？",
+          "category": "跨考咨询"
+        },
+        {
+          "timestamp": "2024-01-22 17:40:00",
+          "query": "心理学考研需要考数学吗？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-14 09:15:00",
+          "query": "中大心理学导师有哪些方向？",
+          "category": "导师咨询"
+        },
+        {
+          "timestamp": "2024-02-28 15:30:00",
+          "query": "跨考需要提前联系导师吗？",
+          "category": "复试咨询"
+        }
+      ]
+    },
+    {
+      "user_id": "U004",
+      "nickname": "在职备考",
+      "city": "深圳",
+      "target_university": "清华大学",
+      "target_major": "MBA",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-12 12:00:00",
+          "query": "在职考MBA需要准备什么？",
+          "category": "备考规划"
+        },
+        {
+          "timestamp": "2024-01-28 18:30:00",
+          "query": "清华MBA提前面试怎么准备？",
+          "category": "面试咨询"
+        },
+        {
+          "timestamp": "2024-02-16 20:00:00",
+          "query": "管理类联考综合能力考什么内容？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-03-05 07:45:00",
+          "query": "在职备考每天需要学习几个小时？",
+          "category": "时间管理"
+        },
+        {
+          "timestamp": "2024-03-12 22:20:00",
+          "query": "MBA毕业后就业前景如何？",
+          "category": "就业咨询"
+        }
+      ]
+    },
+    {
+      "user_id": "U005",
+      "nickname": "学渣逆袭",
+      "city": "杭州",
+      "target_university": "浙江大学",
+      "target_major": "法学",
+      "exam_year": 2026,
+      "queries": [
+        {
+          "timestamp": "2024-01-05 10:30:00",
+          "query": "本科成绩不好影响考研吗？",
+          "category": "背景咨询"
+        },
+        {
+          "timestamp": "2024-01-18 16:45:00",
+          "query": "法学考研需要考数学吗？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-01 14:20:00",
+          "query": "浙大法学和武大法学哪个更好考？",
+          "category": "院校对比"
+        },
+        {
+          "timestamp": "2024-02-20 11:00:00",
+          "query": "法硕和学硕有什么区别？",
+          "category": "专业选择"
+        }
+      ]
+    },
+    {
+      "user_id": "U006",
+      "nickname": "保研边缘人",
+      "city": "成都",
+      "target_university": "四川大学",
+      "target_major": "临床医学",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-14 09:00:00",
+          "query": "保研边缘人要不要准备考研？",
+          "category": "保研咨询"
+        },
+        {
+          "timestamp": "2024-01-30 15:20:00",
+          "query": "临床医学考研科目有哪些？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-12 19:40:00",
+          "query": "华西医院研究生好考吗？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-02-25 08:30:00",
+          "query": "医学考研需要实习经历吗？",
+          "category": "背景咨询"
+        },
+        {
+          "timestamp": "2024-03-08 21:15:00",
+          "query": "医学专硕和学硕怎么选？",
+          "category": "专业选择"
+        }
+      ]
+    },
+    {
+      "user_id": "U007",
+      "nickname": "英语困难户",
+      "city": "武汉",
+      "target_university": "华中科技大学",
+      "target_major": "英语语言文学",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-20 11:10:00",
+          "query": "英语专业考研二外选什么好？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-03 16:30:00",
+          "query": "华科英语专业考研难度如何？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-02-18 13:45:00",
+          "query": "英语专业考研需要考数学吗？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-03-02 20:00:00",
+          "query": "英语专业就业前景怎么样？",
+          "category": "就业咨询"
+        }
+      ]
+    },
+    {
+      "user_id": "U008",
+      "nickname": "工科转码",
+      "city": "西安",
+      "target_university": "西安交通大学",
+      "target_major": "软件工程",
+      "exam_year": 2026,
+      "queries": [
+        {
+          "timestamp": "2024-01-09 14:00:00",
+          "query": "土木工程专业转码容易吗？",
+          "category": "跨考咨询"
+        },
+        {
+          "timestamp": "2024-01-26 10:20:00",
+          "query": "408计算机学科基础考什么？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-11 17:50:00",
+          "query": "西交软件工程考研科目有哪些？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-02-24 09:30:00",
+          "query": "零基础如何准备408？",
+          "category": "备考规划"
+        },
+        {
+          "timestamp": "2024-03-10 19:10:00",
+          "query": "软件工程硕士就业方向有哪些？",
+          "category": "就业咨询"
+        }
+      ]
+    },
+    {
+      "user_id": "U009",
+      "nickname": "艺术生",
+      "city": "南京",
+      "target_university": "南京艺术学院",
+      "target_major": "视觉传达设计",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-16 15:40:00",
+          "query": "艺术生考研需要考哪些科目？",
+          "category": "科目咨询"
+        },
+        {
+          "timestamp": "2024-02-04 11:25:00",
+          "query": "设计类考研需要准备作品集吗？",
+          "category": "作品集咨询"
+        },
+        {
+          "timestamp": "2024-02-19 18:00:00",
+          "query": "南艺视觉传达考研难度如何？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-03-06 14:15:00",
+          "query": "艺术生考研英语要求多少分？",
+          "category": "分数线查询"
+        }
+      ]
+    },
+    {
+      "user_id": "U010",
+      "nickname": "大龄考生",
+      "city": "天津",
+      "target_university": "南开大学",
+      "target_major": "公共管理",
+      "exam_year": 2025,
+      "queries": [
+        {
+          "timestamp": "2024-01-11 20:30:00",
+          "query": "30岁考研晚不晚？",
+          "category": "年龄咨询"
+        },
+        {
+          "timestamp": "2024-01-29 09:45:00",
+          "query": "工作5年后考研值得吗？",
+          "category": "价值咨询"
+        },
+        {
+          "timestamp": "2024-02-15 16:20:00",
+          "query": "南开MPA好考吗？",
+          "category": "院校咨询"
+        },
+        {
+          "timestamp": "2024-03-01 12:00:00",
+          "query": "大龄考生复试会被歧视吗？",
+          "category": "复试咨询"
+        },
+        {
+          "timestamp": "2024-03-15 19:30:00",
+          "query": "在职研究生和全日制研究生有什么区别？",
+          "category": "学习方式"
+        }
+      ]
+    }
+  ]
+}

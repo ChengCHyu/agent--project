@@ -1,0 +1,1 @@
+2026-02-07 13:29:34,532 - agent - ERROR - prompt_loader.py : 8 - [load_system_prompts]在yaml配置中没有main_prompt_path配置项

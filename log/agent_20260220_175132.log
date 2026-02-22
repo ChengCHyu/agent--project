@@ -1,0 +1,3 @@
+2026-02-20 17:51:32,854 - agent - INFO - vector_store.py : 65 - [加载知识库]data\rag测试资料1.txt内容加载成功
+2026-02-20 17:51:33,144 - agent - INFO - vector_store.py : 65 - [加载知识库]data\rag测试资料2.txt内容加载成功
+2026-02-20 17:51:33,637 - agent - INFO - vector_store.py : 65 - [加载知识库]data\rag测试资料3.txt内容加载成功

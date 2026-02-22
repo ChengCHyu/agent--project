@@ -1,0 +1,75 @@
+2026-02-20 17:49:41,546 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料1.txt内容加载失败,错误信息：Error loading data\rag测试资料1.txt
+Traceback (most recent call last):
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xad in position 14: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 52, in load_documents
+    doucuments=get_file_documents(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\rag\vector_store.py", line 41, in get_file_documents
+    return text_loader(read_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\utils\file_handler.py", line 43, in text_loader
+    return TextLoader(file_path).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data\rag测试资料1.txt
+2026-02-20 17:49:41,553 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料2.txt内容加载失败,错误信息：Error loading data\rag测试资料2.txt
+Traceback (most recent call last):
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xad in position 26: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 52, in load_documents
+    doucuments=get_file_documents(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\rag\vector_store.py", line 41, in get_file_documents
+    return text_loader(read_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\utils\file_handler.py", line 43, in text_loader
+    return TextLoader(file_path).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data\rag测试资料2.txt
+2026-02-20 17:49:41,557 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料3.txt内容加载失败,错误信息：Error loading data\rag测试资料3.txt
+Traceback (most recent call last):
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 36: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 52, in load_documents
+    doucuments=get_file_documents(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\rag\vector_store.py", line 41, in get_file_documents
+    return text_loader(read_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\utils\file_handler.py", line 43, in text_loader
+    return TextLoader(file_path).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\ANACONDA\envs\ragtest\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data\rag测试资料3.txt

@@ -1,0 +1,17 @@
+2026-02-21 01:25:01,478 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有1条消息
+2026-02-21 01:25:01,478 - agent - DEBUG - middleware.py : 38 - [log_before_model]HumanMessage|给我生成我的试用报告
+2026-02-21 01:25:04,070 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_user_id
+2026-02-21 01:25:04,070 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:25:04,070 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_user_id调用成功
+2026-02-21 01:25:04,072 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有3条消息
+2026-02-21 01:25:04,072 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|U004
+2026-02-21 01:25:06,429 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:fetch_external_data
+2026-02-21 01:25:06,429 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{'user_id': 'U004'}
+2026-02-21 01:25:06,430 - agent - INFO - middleware.py : 25 - [tool monitor]工具fetch_external_data调用成功
+2026-02-21 01:25:06,432 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有5条消息
+2026-02-21 01:25:06,432 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|["在职考MBA需要准备什么？", "清华MBA提前面试怎么准备？", "管理类联考综合能力考什么内容？", "在职备考每天需要学习几个小时？", "MBA毕业后就业前景如何？"]
+2026-02-21 01:25:12,276 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:fill_context_for_report
+2026-02-21 01:25:12,276 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:25:12,278 - agent - INFO - middleware.py : 25 - [tool monitor]工具fill_context_for_report调用成功
+2026-02-21 01:25:12,278 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有7条消息
+2026-02-21 01:25:12,278 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|fill_context_for_report已被调用

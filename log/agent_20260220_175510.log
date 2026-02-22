@@ -1,0 +1,3 @@
+2026-02-20 17:55:10,838 - agent - INFO - vector_store.py : 49 - [加载知识库]data\rag测试资料1.txt内容已存在知识库内,跳过
+2026-02-20 17:55:10,838 - agent - INFO - vector_store.py : 49 - [加载知识库]data\rag测试资料2.txt内容已存在知识库内,跳过
+2026-02-20 17:55:10,839 - agent - INFO - vector_store.py : 49 - [加载知识库]data\rag测试资料3.txt内容已存在知识库内,跳过

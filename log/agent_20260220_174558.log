@@ -1,0 +1,36 @@
+2026-02-20 17:45:58,733 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料1.txt内容加载失败,错误信息：name 'TextLoader' is not defined
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 52, in load_documents
+    doucuments=get_file_documents(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\rag\vector_store.py", line 41, in get_file_documents
+    return text_loader(read_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\utils\file_handler.py", line 42, in text_loader
+    return TextLoader(file_path).load()
+           ^^^^^^^^^^
+NameError: name 'TextLoader' is not defined. Did you mean: 'text_loader'?
+2026-02-20 17:45:58,736 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料2.txt内容加载失败,错误信息：name 'TextLoader' is not defined
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 52, in load_documents
+    doucuments=get_file_documents(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\rag\vector_store.py", line 41, in get_file_documents
+    return text_loader(read_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\utils\file_handler.py", line 42, in text_loader
+    return TextLoader(file_path).load()
+           ^^^^^^^^^^
+NameError: name 'TextLoader' is not defined. Did you mean: 'text_loader'?
+2026-02-20 17:45:58,739 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料3.txt内容加载失败,错误信息：name 'TextLoader' is not defined
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 52, in load_documents
+    doucuments=get_file_documents(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\rag\vector_store.py", line 41, in get_file_documents
+    return text_loader(read_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\agentproject\utils\file_handler.py", line 42, in text_loader
+    return TextLoader(file_path).load()
+           ^^^^^^^^^^
+NameError: name 'TextLoader' is not defined. Did you mean: 'text_loader'?

@@ -1,0 +1,15 @@
+2026-02-21 01:02:51,071 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有1条消息
+2026-02-21 01:02:51,072 - agent - DEBUG - middleware.py : 38 - [log_before_model]HumanMessage|考研根据在我所在的地区和天气应该干什么
+2026-02-21 01:02:52,945 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_user_location
+2026-02-21 01:02:52,947 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:02:52,950 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_user_location调用成功
+2026-02-21 01:02:52,950 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_weather
+2026-02-21 01:02:52,952 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{'city': '北京'}
+2026-02-21 01:02:52,955 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_weather调用成功
+2026-02-21 01:02:52,958 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有4条消息
+2026-02-21 01:02:52,959 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|城市北京的天气是晴天,气温26摄氏度,空气湿度为50%
+2026-02-21 01:02:53,954 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_user_location
+2026-02-21 01:02:53,954 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:02:53,957 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_user_location调用成功
+2026-02-21 01:02:53,961 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有6条消息
+2026-02-21 01:02:53,962 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|北京

@@ -1,0 +1,18 @@
+2026-02-20 17:50:29,596 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料1.txt内容加载失败,错误信息：'vectorstoreservice' object has no attribute 'save_md5_hex'
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 64, in load_documents
+    self.save_md5_hex(md5_hex)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'vectorstoreservice' object has no attribute 'save_md5_hex'
+2026-02-20 17:50:29,904 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料2.txt内容加载失败,错误信息：'vectorstoreservice' object has no attribute 'save_md5_hex'
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 64, in load_documents
+    self.save_md5_hex(md5_hex)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'vectorstoreservice' object has no attribute 'save_md5_hex'
+2026-02-20 17:50:30,404 - agent - ERROR - vector_store.py : 68 - [加载知识库]data\rag测试资料3.txt内容加载失败,错误信息：'vectorstoreservice' object has no attribute 'save_md5_hex'
+Traceback (most recent call last):
+  File "F:\agentproject\rag\vector_store.py", line 64, in load_documents
+    self.save_md5_hex(md5_hex)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'vectorstoreservice' object has no attribute 'save_md5_hex'

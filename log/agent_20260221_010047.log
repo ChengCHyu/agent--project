@@ -1,0 +1,15 @@
+2026-02-21 01:00:48,676 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有1条消息
+2026-02-21 01:00:48,677 - agent - DEBUG - middleware.py : 38 - [log_before_model]HumanMessage|考研3月,根据浙江的天气应该干什么
+2026-02-21 01:00:50,577 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_weather
+2026-02-21 01:00:50,578 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{'city': '浙江'}
+2026-02-21 01:00:50,583 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_weather调用成功
+2026-02-21 01:00:50,583 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_current_month
+2026-02-21 01:00:50,586 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:00:50,588 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_current_month调用成功
+2026-02-21 01:00:50,593 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有4条消息
+2026-02-21 01:00:50,593 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|11月
+2026-02-21 01:00:52,569 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_current_month
+2026-02-21 01:00:52,570 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:00:52,572 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_current_month调用成功
+2026-02-21 01:00:52,575 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有6条消息
+2026-02-21 01:00:52,576 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|8月

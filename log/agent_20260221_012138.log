@@ -1,0 +1,17 @@
+2026-02-21 01:21:39,508 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有1条消息
+2026-02-21 01:21:39,508 - agent - DEBUG - middleware.py : 38 - [log_before_model]HumanMessage|给我生成我的试用报告
+2026-02-21 01:21:41,996 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:get_user_id
+2026-02-21 01:21:41,996 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:21:41,996 - agent - INFO - middleware.py : 25 - [tool monitor]工具get_user_id调用成功
+2026-02-21 01:21:41,999 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有3条消息
+2026-02-21 01:21:41,999 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|U001
+2026-02-21 01:21:44,270 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:fetch_external_data
+2026-02-21 01:21:44,270 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{'user_id': 'U001'}
+2026-02-21 01:21:44,274 - agent - INFO - middleware.py : 25 - [tool monitor]工具fetch_external_data调用成功
+2026-02-21 01:21:44,276 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有5条消息
+2026-02-21 01:21:44,276 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|["北大计算机考研需要准备哪些科目？", "数学一和数学二有什么区别？", "现在开始准备考研还来得及吗？", "北大计算机历年分数线是多少？"]
+2026-02-21 01:21:47,000 - agent - INFO - middleware.py : 21 - [tool monitor]执行工具:fill_context_for_report
+2026-02-21 01:21:47,000 - agent - INFO - middleware.py : 22 - [tool monitor]工具参数:{}
+2026-02-21 01:21:47,002 - agent - INFO - middleware.py : 25 - [tool monitor]工具fill_context_for_report调用成功
+2026-02-21 01:21:47,003 - agent - INFO - middleware.py : 37 - [log_before_model]即将调用模型,带有7条消息
+2026-02-21 01:21:47,003 - agent - DEBUG - middleware.py : 38 - [log_before_model]ToolMessage|fill_context_for_report已被调用
